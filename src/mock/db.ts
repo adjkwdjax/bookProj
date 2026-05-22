@@ -26,7 +26,7 @@ interface Database {
 const initialDb: Database = {
   users: [
     {
-      id: 'admin-1',
+      id: '11111111-1111-1111-1111-111111111111',
       name: 'Администратор',
       email: 'admin@example.com',
       passwordHash: 'password', // mock password
@@ -34,7 +34,7 @@ const initialDb: Database = {
       createdAt: new Date().toISOString(),
     },
     {
-      id: 'mod-1',
+      id: '22222222-2222-2222-2222-222222222222',
       name: 'Модератор Фантастики',
       email: 'moderator@example.com',
       passwordHash: 'password',
@@ -43,7 +43,7 @@ const initialDb: Database = {
       createdAt: new Date().toISOString(),
     },
     {
-      id: 'user-1',
+      id: '33333333-3333-3333-3333-333333333333',
       name: 'Иван Иванов',
       email: 'john@example.com',
       passwordHash: 'password',
@@ -51,7 +51,7 @@ const initialDb: Database = {
       createdAt: new Date().toISOString(),
     },
     {
-      id: 'user-2',
+      id: '44444444-4444-4444-4444-444444444444',
       name: 'Мария Смирнова',
       email: 'jane@example.com',
       passwordHash: 'password',
@@ -60,10 +60,10 @@ const initialDb: Database = {
     },
   ],
   categories: [
-    { id: 'cat-1', name: 'Фантастика', slug: 'fiction' },
-    { id: 'cat-2', name: 'Наука', slug: 'science' },
-    { id: 'cat-3', name: 'Программирование', slug: 'programming' },
-    { id: 'cat-4', name: 'Дизайн', slug: 'design' },
+    { id: '55555555-5555-5555-5555-555555555555', name: 'Фантастика', slug: 'fiction' },
+    { id: '66666666-6666-6666-6666-666666666666', name: 'Наука', slug: 'science' },
+    { id: '77777777-7777-7777-7777-777777777777', name: 'Программирование', slug: 'programming' },
+    { id: '88888888-8888-8888-8888-888888888888', name: 'Дизайн', slug: 'design' },
   ],
   books: [
     {
